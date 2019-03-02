@@ -9,9 +9,11 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-    @component('components.navbar')        
-    @endcomponent
     <img class="bg" src="/imgs/hp.png">
-    @yield('content')
+    <div id="imglogo">
+        <img src="/imgs/logo_g.png" class="img1">
+    </div>
+    <button type="button" class="btn btn-outline-primary" id="login_but">Login</button>
+    <button type="button" class="btn btn-outline-primary" id="reg_but">Registrar funcionário</button>
 </body>
 </html>
