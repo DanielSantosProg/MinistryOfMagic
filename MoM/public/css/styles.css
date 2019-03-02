@@ -205,4 +205,298 @@
     border-color: #3119c8;
 }
 
+#cadastro_lab{
+    position: absolute;
+    width: 500px;
+    height: 179px;
+    left: 427px;
+    top: 55px;
+    font-family: NTR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 81px;
+    font-size: 96px;
+}
 
+#nome_cad{
+    position: absolute;
+    width: 240px;
+    height: 121px;
+    left: 250px;
+    top: 280px;
+    font-family: NTR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 54px;
+    font-size: 64px;
+}
+
+#senha_cad{
+    position: absolute;
+    width: 240px;
+    height: 121px;
+    left: 250px;
+    top: 400px;
+    font-family: NTR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 54px;
+    font-size: 64px;    
+}
+
+#end_cad{
+    position: absolute;
+    width: 240px;
+    height: 121px;
+    left: 250px;
+    top: 520px;
+    font-family: NTR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 54px;
+    font-size: 64px;    
+}
+
+#rub_cad{
+    position: absolute;
+    width: 240px;
+    height: 121px;
+    left: 250px;
+    top: 640px;
+    font-family: NTR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 54px;
+    font-size: 64px;    
+}
+
+#sex_cad{
+    position: absolute;
+    width: 240px;
+    height: 121px;
+    left:780px;
+    top: 760px;
+    font-family: NTR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 54px;
+    font-size: 64px;    
+}
+
+#foto_cad{
+    position: absolute;
+    width: 240px;
+    height: 121px;
+    left: 250px;
+    top: 760px;
+    font-family: NTR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 54px;
+    font-size: 64px;    
+}
+
+#cad_but{
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    left: 526px;
+    top: 900px;
+    background: #FFFFFF;
+    border: 5px solid #3119C8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: #3119c8;
+}
+
+#cad_but:hover{
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    left: 526px;
+    top: 900px;
+    background: #3119C8;
+    border: 5px solid #3119C8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+.rad_but{
+    position: absolute;
+    width: 300px;
+    height: 180px;
+    left: 950px;
+    top: 734px;
+    font-family: NTR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 54px;
+    font-size: 34px;    
+}
+
+#dados_cad_1{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 550px;
+    top: 280px;
+    background: #FEF7F7;
+    box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
+    border-color: #3119c8;
+}
+
+#dados_cad_2{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 550px;
+    top: 400px;
+    background: #FEF7F7;
+    box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
+    border-color: #3119c8;
+}
+
+#dados_cad_3{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 550px;
+    top: 520px;
+    background: #FEF7F7;
+    box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
+    border-color: #3119c8; 
+}
+
+#dados_cad_4{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 550px;
+    top: 640px;
+    background: #FEF7F7;
+    box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
+    border-color: #3119c8;
+}
+
+#inserir_img{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 400px;
+    top: 760px;    
+}
+
+#home_but_1{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 300px;
+    top: 600px;
+    background: black;
+    border: 5px solid rgb(22, 94, 22);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: green;
+}
+
+#home_but_2{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 1226px;
+    top: 600px;
+    background: black;
+    border: 5px solid #3119C8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: #3119c8; 
+}
+
+#home_but_3{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 300px;
+    top: 1100px;
+    background: black;
+    border: 5px solid rgb(189, 189, 47);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: rgb(189, 189, 47);
+}
+
+#home_but_4{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 1226px;
+    top: 1100px;
+    background: black;
+    border: 5px solid red;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: red;
+}
+
+#home_but_1:hover{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 300px;
+    top: 600px;
+    background: rgb(22, 94, 22);
+    border: 5px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+#home_but_2:hover{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 1226px;
+    top: 600px;
+    background: #3119c8;
+    border: 5px solid #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+#home_but_3:hover{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 300px;
+    top: 1100px;
+    background: rgb(189, 189, 47);
+    border: 5px solid white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: white;
+}
+
+#home_but_4:hover{
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    left: 1226px;
+    top: 1100px;
+    background: red;
+    border: 5px solid #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: #ffffff;
+}
