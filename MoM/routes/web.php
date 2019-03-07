@@ -26,3 +26,29 @@ Route::get('/login', function () {
 Route::get('/cadastro', function () {
     return view('cadastro_funcionario');
 });
+
+
+Route::get('/cadastrodasala',function(){
+	return view('cadastro_de_sala');
+});
+
+Route::get('/alocarfuncionario', function(){
+	return view('alocarfuncionario');
+});
+
+Route::get('/exibir', function(){
+	return view('exibirfuncionarios');
+});
+
+Route::get('/departamento', function(){
+	return view('departamento');
+});
+
+
+
+
+
+
+
+
+
