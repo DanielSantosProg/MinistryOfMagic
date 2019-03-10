@@ -17,14 +17,14 @@
         <h1 id='alocarfun'>Alocar funcionario</h1>
         <h2 id='numdepartamento'>Numero do departamento</h2> 
         <div>
-           <input type = "text" id= '' placeholder= "Digite o numero do departamento" />
+           <input type = "text" id= 'dadoAlocar1' placeholder= "Digite o numero do departamento" />
         </div>
         <h3 id='Rub'>RUB do funcionario</h3>
         <div>
-            <input type = "text" id='' placeholder = "Digite o RUB" />
+            <input type = "text" id='dadoAlocar2' placeholder = "Digite o RUB" />
         </div>
         
-        <button type="button" class="btn btn-outline-primary" id="">Cadastrar</button>
+        <button type="button" class="btn btn-outline-primary" id='cad_but'>Cadastrar</button>
     </div>
 </body>
 </html>
