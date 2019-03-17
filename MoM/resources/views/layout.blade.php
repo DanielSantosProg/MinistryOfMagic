@@ -6,12 +6,13 @@
     <title>Ministry of Magic</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" href="{{asset('css/styles.css')}}">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
     @component('components.navbar')        
     @endcomponent
-    <img class="bg" src="/imgs/hp.png">
     @yield('content')
+    <script type="text/javascript" src="{{asset('js/app.js')}}"></script>  
 </body>
 </html>

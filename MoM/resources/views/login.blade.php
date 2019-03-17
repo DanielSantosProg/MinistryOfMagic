@@ -9,7 +9,6 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-    <img class="bg" src="/imgs/hp.png">
     <div id="imglogo">
             <img src="/imgs/logo_g.png" class="img2">
     </div>

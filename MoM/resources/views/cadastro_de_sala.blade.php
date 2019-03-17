@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Ministry of Magic</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-</head>
-<body>
-    <img class="bg" src="/imgs/hp.png">
+@extends('layout')
+
+@section('content')
     <div id="imglogo">
             <img src="/imgs/logo_g.png" class="img2">
     </div>
@@ -26,9 +17,4 @@
         
         <button type="button" class="btn btn-outline-primary" id='cad_but'>Cadastrar</button>
     </div>
-</body>
-</html>
-
-
-
-
+@endsection
