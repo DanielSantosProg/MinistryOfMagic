@@ -20,17 +20,7 @@ html {
     border: 1px solid #000000;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    top: 14px;
-    z-index: 900;
-}
-
-.navbar-nav > li{
-    padding-right:1550px;
-    font-size: 30px
-}
-
-.nav-item > a{
-    font-size: 30px
+    
 }
 
 #login_but{
