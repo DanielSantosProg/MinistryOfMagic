@@ -16,24 +16,36 @@
         <button type="button" class="btn btn-outline-primary" id="login_but">Login</button>
         <button type="button" class="btn btn-outline-primary" id="reg_but">Registrar funcionário</button>
     </div>
-    <div id="carouselExampleIndicators" class="carousel slide mycarousel" data-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img class="d-block w-100 imgcar" src="\imgs\varinhas.jpg" alt="First slide">
-              </div>
-              <div class="carousel-item">
-                <img class="d-block w-100 imgcar" src="\imgs\dumbledore.jpg" alt="Second slide">
-              </div>
+      <div>
+        <div id="carouselExampleIndicators" class="carousel slide mycarousel" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 imgcar" src="\imgs\varinhas.jpg" alt="First slide">
+            <div class="carousel-caption d-none d-md-block car-style">
+                <h5>Varinhas Mágicas</h5>
+                <p>O acessório indispensável para o bruxo.</p>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-    </div>     
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100 imgcar" src="\imgs\dumbledore.jpg" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block car-style">
+                <h5>Dumbledore</h5>
+                <p>O mestre da magia, fundador de Hogwarts.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+        <br>
+      </div>
+    </div>
+        
       <script type="text/javascript" src="{{asset('js/app.js')}}"></script>  
 </body>
 </html>

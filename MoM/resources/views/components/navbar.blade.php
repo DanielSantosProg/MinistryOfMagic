@@ -10,22 +10,21 @@
       <li class="nav-item active">
         <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
       </li>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Cadastrar Funcionário</a>
-          <a class="dropdown-item" href="#">Cadastrar Sala</a>
-          <a class="dropdown-item" href="#">Cadastrar Departamento</a>
-      </div>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cadastrar
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Cadastrar Sala</a>
+            <a class="dropdown-item" href="#">Cadastrar Departamento</a>
+          </div>
+        </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Alocar Funcionário</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Exibir Funcionário</a>
       </li>      
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Cadastrar
-        </a>             
-      </li>
       <li class="nav-item">
           <a class="nav-link" href="#">Sair</a>
       </li>

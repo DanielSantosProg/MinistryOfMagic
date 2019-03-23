@@ -12,7 +12,9 @@ html {
     left: 35%;
     height: 15%;
     width: 35%;
+    background: #3119C8;
 }
+
 
 .navbar-light{
     background: #5B0ADF;
@@ -22,6 +24,11 @@ html {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     
 }
+
+.nav-item{
+    font-size: 20px;
+}
+
 
 #login_but{
     position: absolute;
@@ -392,113 +399,113 @@ html {
 
 #home_but_1{
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     left: 300px;
     top: 600px;
     background: black;
     border: 5px solid rgb(22, 94, 22);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-    font-size: 50px;
+    font-size: 30px;
     color: green;
 }
 
 #home_but_2{
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     left: 1226px;
     top: 600px;
     background: black;
     border: 5px solid #3119C8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-    font-size: 50px;
+    font-size: 30px;
     color: #3119c8; 
 }
 
 #home_but_3{
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     left: 300px;
     top: 1100px;
     background: black;
     border: 5px solid rgb(189, 189, 47);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-    font-size: 50px;
+    font-size: 30px;
     color: rgb(189, 189, 47);
 }
 
 #home_but_4{
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     left: 1226px;
     top: 1100px;
     background: black;
     border: 5px solid red;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-    font-size: 50px;
+    font-size: 30px;
     color: red;
 }
 
 #home_but_1:hover{
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     left: 300px;
     top: 600px;
     background: rgb(22, 94, 22);
     border: 5px solid #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-    font-size: 50px;
+    font-size: 30px;
     color: #FFFFFF;
 }
 
 #home_but_2:hover{
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     left: 1226px;
     top: 600px;
     background: #3119c8;
     border: 5px solid #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-    font-size: 50px;
+    font-size: 30px;
     color: #FFFFFF;
 }
 
 #home_but_3:hover{
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     left: 300px;
     top: 1100px;
     background: rgb(189, 189, 47);
     border: 5px solid white;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-    font-size: 50px;
+    font-size: 30px;
     color: white;
 }
 
 #home_but_4:hover{
     position: absolute;
-    width: 400px;
-    height: 300px;
+    width: 300px;
+    height: 200px;
     left: 1226px;
     top: 1100px;
     background: red;
     border: 5px solid #ffffff;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 50px;
-    font-size: 50px;
+    font-size: 30px;
     color: #ffffff;
 }
 #cadastrodepart{
@@ -737,4 +744,14 @@ html {
     border-radius: 50px;
     font-size: 50px;
     color: #3119c8;
+}
+
+.car-style{
+    -webkit-text-stroke: 1px purple;
+    color: black;
+    font-size: 30px;
+}
+
+.car{
+    width: 100%;
 }
