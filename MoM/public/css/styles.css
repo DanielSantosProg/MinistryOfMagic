@@ -15,6 +15,9 @@ html {
     background: #3119C8;
 }
 
+.navbar.navbar-expand-lg.navbar-light ul li a {
+    color: white; 
+}
 
 .navbar-light{
     background: #5B0ADF;
