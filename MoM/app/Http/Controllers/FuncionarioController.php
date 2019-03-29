@@ -14,7 +14,8 @@ class FuncionarioController extends Controller
      */
     public function index()
     {
-        //
+        $funcionarios = Funcionario::all();
+        return view('funcionarios_listar', compact('funcionarios'));
     }
 
     /**
@@ -24,7 +25,7 @@ class FuncionarioController extends Controller
      */
     public function create()
     {
-        //
+        return view('funcionario_cadastrar');
     }
 
     /**
@@ -35,13 +36,25 @@ class FuncionarioController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $funcionario = new Funcionario();
+        $funcionario->nome = $request->input("nome");
+        $funcionario->sexo = $request->input("sexo");
+        $funcionario->endereço = $request->input("endereço");
+        $path = $request->file('foto')->store('images', 'public');
+        $funcionario->foto = $path;
+        $funcionario->rub = $request->input("rub");
+        $pos = "funcionario";
+        $funcionario->posição = $pos;
+        $dep = null;
+        $funcionario->id_departamento = $dep;
+        $funcionario->save();
+        return redirect()->route('funcionarios.index');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Funcionario  $funcionario
+     * @param  \App\funcionario  $funcionario
      * @return \Illuminate\Http\Response
      */
     public function show(Funcionario $funcionario)
@@ -52,34 +65,45 @@ class FuncionarioController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Funcionario  $funcionario
+     * @param  \App\funcionario  $funcionario
      * @return \Illuminate\Http\Response
      */
     public function edit(Funcionario $funcionario)
     {
-        //
+        return view('funcionario_editar', compact('funcionario'));
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Funcionario  $funcionario
+     * @param  \App\funcionario  $funcionario
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Funcionario $funcionario)
+    public function update(Funcionario $funcionario)
     {
-        //
+        $funcionario->nome = $request->input("nome");
+        $funcionario->sexo = $request->input("sexo");
+        $funcionario->endereço = $request->input("endereço");
+        $path = $request->file('foto')->store('images', 'public');
+        $funcionario->foto = $path;
+        $funcionario->rub = $request->input("rub");
+        $funcionario->posição = $request->input("posição");
+        $funcionario->id_departamento = $request->input("id_departamento");
+        $funcionario->save();
+        return redirect()->route('funcionarios.index');
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Funcionario  $funcionario
+     * @param  \App\funcionario  $funcionario
      * @return \Illuminate\Http\Response
      */
     public function destroy(Funcionario $funcionario)
     {
-        //
+        $funcionario->delete();
+        return redirect()->route('funcionarios.index');
     }
+
 }

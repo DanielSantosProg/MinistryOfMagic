@@ -10,7 +10,7 @@
         <div>
            <input type = "text" id= 'dadonumsala1' placeholder= "Digite o numero da sala" />
         </div>
-        <h3 id='nummaxfun'>Numero máximo de funcionarios</h3>
+        <h2 id='nummaxfun'>Numero máximo de funcionarios</h3>
         <div>
             <input type = "text" id='dadonumsala2' placeholder = "Digite o numero máximo de funcionarios" />
         </div>

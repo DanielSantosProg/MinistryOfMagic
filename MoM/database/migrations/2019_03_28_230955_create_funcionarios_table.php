@@ -21,7 +21,7 @@ class CreateFuncionariosTable extends Migration
             $table->string('foto');
             $table->string('rub');
             $table->string('posição');
-            $table->bigInteger('id_departamento')->unsigned();
+            $table->bigInteger('id_departamento')->unsigned()->nullable();
             $table->foreign('id_departamento')->references('id')->on('departamentos');
             $table->timestamps();
         });

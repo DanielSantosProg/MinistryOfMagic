@@ -24,11 +24,11 @@ Route::get('/login', function () {
 });
 
 Route::get('/cadastro', function () {
-    return view('cadastro_funcionario');
+    return view('funcionario_cadastrar');
 });
 
 
-Route::get('/cadastrodasala',function(){
+Route::get('/cadastrosala',function(){
 	return view('cadastro_de_sala');
 });
 
@@ -44,6 +44,13 @@ Route::get('/departamento', function(){
 	return view('departamento');
 });
 
+Route::get('/departamento', function(){
+	return view('departamento');
+});
+
+Route::resource('departamentos', 'DepartamentoController');
+Route::resource('funcionarios', 'FuncionarioController');
+Route::resource('salas', 'SalaController');
 
 
 

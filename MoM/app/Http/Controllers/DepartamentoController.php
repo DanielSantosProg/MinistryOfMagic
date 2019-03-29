@@ -14,7 +14,8 @@ class DepartamentoController extends Controller
      */
     public function index()
     {
-        //
+        $departamentos = Departamento::all();
+        return view('departamentos_listar', compact('departamentos'));
     }
 
     /**
@@ -24,7 +25,7 @@ class DepartamentoController extends Controller
      */
     public function create()
     {
-        //
+        return view('departamento_cadastrar');
     }
 
     /**
@@ -35,7 +36,12 @@ class DepartamentoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $departamento = new Departamento();
+        $departamento->nome = $request->input("nome");
+        $departamento->coordenador = $request->input("coordenador");
+        $departamento->sala = $request->input("sala");
+        $departamento->save();
+        return redirect()->route('departamentos.index');
     }
 
     /**
@@ -57,7 +63,7 @@ class DepartamentoController extends Controller
      */
     public function edit(Departamento $departamento)
     {
-        //
+        return view('departamento_editar', compact('departamento'));
     }
 
     /**
@@ -67,7 +73,7 @@ class DepartamentoController extends Controller
      * @param  \App\Departamento  $departamento
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Departamento $departamento)
+    public function update(Departamento $departamento)
     {
         //
     }
@@ -80,6 +86,7 @@ class DepartamentoController extends Controller
      */
     public function destroy(Departamento $departamento)
     {
-        //
+        $departamento->delete();
+        return redirect()->route('departamentos.index');
     }
 }

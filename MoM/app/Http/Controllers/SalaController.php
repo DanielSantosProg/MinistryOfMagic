@@ -14,7 +14,8 @@ class SalaController extends Controller
      */
     public function index()
     {
-        //
+        $salas = Sala::all();
+        return view('salas_listar', compact('salas'));
     }
 
     /**
@@ -24,7 +25,7 @@ class SalaController extends Controller
      */
     public function create()
     {
-        //
+        return view('sala_cadastrar');
     }
 
     /**
@@ -35,13 +36,17 @@ class SalaController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $sala = new Sala();
+        $sala->numero = $request->input("numero");
+        $sala->qtd_pessoas = $request->input("qtd_pessoas");
+        $sala->save();
+        return redirect()->route('salas.index');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Sala  $sala
+     * @param  \App\sala  $sala
      * @return \Illuminate\Http\Response
      */
     public function show(Sala $sala)
@@ -52,22 +57,22 @@ class SalaController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Sala  $sala
+     * @param  \App\sala  $sala
      * @return \Illuminate\Http\Response
      */
     public function edit(Sala $sala)
     {
-        //
+        return view('sala_editar', compact('sala'));
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Sala  $sala
+     * @param  \App\sala  $sala
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Sala $sala)
+    public function update(Sala $sala)
     {
         //
     }
@@ -75,11 +80,12 @@ class SalaController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Sala  $sala
+     * @param  \App\sala  $sala
      * @return \Illuminate\Http\Response
      */
     public function destroy(Sala $sala)
     {
-        //
+        $sala->delete();
+        return redirect()->route('salas.index');
     }
 }
