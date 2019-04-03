@@ -2,7 +2,7 @@
 
 @section('content')
     <div id="imglogo">
-            <img src="/imgs/logo_g.png" class="img2">
+            <img src="/imgs/logo_g_white.png" class="img2">
     </div>    
     <div class='rectangle'>
             <h1 id='Exibirfun'>Exibir funcionarios</h1>

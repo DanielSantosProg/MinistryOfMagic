@@ -10,7 +10,7 @@
 </head>
 <body>
     <div id="imglogo">
-        <img src="/imgs/logo_g.png" class="img1">
+        <img src="/imgs/logo_g_white.png" class="img1">
     </div>   
     <div>
         <a type="button" href="/login" class="btn btn-outline-primary" id="login_but">Login</a>

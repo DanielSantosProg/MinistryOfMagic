@@ -17,7 +17,7 @@ class CreateDepartamentosTable extends Migration
             $table->bigIncrements('id');
             $table->string('nome');
             $table->string('coordenador');
-            $table->bigInteger('id_sala')->unsigned();
+            $table->bigInteger('id_sala')->unsigned()->nullable();
             $table->foreign('id_sala')->references('id')->on('salas');             
             $table->timestamps();
         });
