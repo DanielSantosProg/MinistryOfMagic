@@ -18,6 +18,11 @@ class SalaController extends Controller
         return view('salas_listar', compact('salas'));
     }
 
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -72,9 +77,12 @@ class SalaController extends Controller
      * @param  \App\sala  $sala
      * @return \Illuminate\Http\Response
      */
-    public function update(Sala $sala)
+    public function update(Request $request, Sala $sala)
     {
-        //
+        $sala->numero = $request->input("numero");
+        $sala->qtd_pessoas = $request->input("qtd_pessoas");
+        $sala->save();
+        return redirect()->route('salas.index');
     }
 
     /**

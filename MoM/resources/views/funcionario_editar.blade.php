@@ -10,11 +10,7 @@
                 <h2 id='nome_cad'>Nome</h2>
                 <div>
                     <input type = "text" class = "form-control" id="dados_cad_1" name="nome" placeholder = "Digite o nome aqui" value="{{ $funcionario->nome }}">
-                </div>
-                <h2 id='senha_cad'>Senha</h2>
-                <div>
-                    <input type = "password" class = "form-control" id="dados_cad_2" name="senha" placeholder = "Digite a senha aqui" value="{{ $funcionario->senha }}">
-                </div>
+                </div>               
                 <h2 id='end_cad'>Endereço</h2>
                 <div>
                     <input type = "text" class = "form-control" id="dados_cad_3" name="endereço" placeholder = "Digite seu endereço aqui" value="{{ $funcionario->endereço }}">

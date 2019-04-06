@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Ministry of Magic</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{asset('css/styles.css')}}">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/styles.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/app.css')}}">
 </head>
 <body>
     @component('components.navbar')        

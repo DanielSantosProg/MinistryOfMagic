@@ -15,8 +15,8 @@ Route::get('/', function () {
     return view('pagina_inicial');
 });
 
-Route::get('/home', function () {
-    return view('home');
+Route::get('/homee', function () {
+    return view('homee');
 });
 
 Route::get('/login', function () {
@@ -58,4 +58,6 @@ Route::resource('salas', 'SalaController');
 
 
 
+Auth::routes();
 
+Route::get('/home', 'HomeController@index')->name('home');

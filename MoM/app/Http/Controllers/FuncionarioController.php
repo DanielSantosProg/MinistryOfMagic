@@ -17,6 +17,11 @@ class FuncionarioController extends Controller
         $funcionarios = Funcionario::all();
         return view('funcionarios_listar', compact('funcionarios'));
     }
+    
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 
     /**
      * Show the form for creating a new resource.

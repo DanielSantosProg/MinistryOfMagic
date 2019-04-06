@@ -14,7 +14,7 @@
     </div>   
     <div>
         <a type="button" href="/login" class="btn btn-outline-primary" id="login_but">Login</a>
-        <a type="button" href="{{route('funcionarios.create')}}" class="btn btn-outline-primary" id="reg_but">Registrar funcionário</a>
+        <a type="button" href="/register" class="btn btn-outline-primary" id="reg_but">Registrar usuário</a>
     </div>
       <div>
         <div id="carouselExampleIndicators" class="carousel slide mycarousel" data-ride="carousel">

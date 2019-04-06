@@ -12,18 +12,14 @@
                 <h2 id='nome_cad'>Nome</h2>
                 <div>
                     <input type = "text" class = "form-control" id="dados_cad_1" name="nome" placeholder = "Digite o nome aqui">
-                </div>
-                <h2 id='senha_cad'>Senha</h2>
-                <div>
-                    <input type = "password" class = "form-control" id="dados_cad_2" name="senha" placeholder = "Digite a senha aqui">
-                </div>
+                </div>                
                 <h2 id='end_cad'>Endereço</h2>
                 <div>
-                    <input type = "text" class = "form-control" id="dados_cad_3" name="endereço" placeholder = "Digite seu endereço aqui">
+                    <input type = "text" class = "form-control" id="dados_cad_2" name="endereço" placeholder = "Digite seu endereço aqui">
                 </div>
                 <h2 id='rub_cad'>RUB</h2>        
                 <div>
-                    <input type = "text" class = "form-control" id="dados_cad_4" name="rub" placeholder = "Digite o número do seu RUB aqui">
+                    <input type = "text" class = "form-control" id="dados_cad_3" name="rub" placeholder = "Digite o número do seu RUB aqui">
                 </div>
                 <h2 id ='sex_cad'>Sexo</h2>                    
                 <div>

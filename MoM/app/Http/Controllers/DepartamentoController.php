@@ -18,6 +18,11 @@ class DepartamentoController extends Controller
         return view('departamentos_listar', compact('departamentos'));
     }
 
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+    
     /**
      * Show the form for creating a new resource.
      *
