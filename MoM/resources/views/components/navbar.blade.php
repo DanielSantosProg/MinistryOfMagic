@@ -15,26 +15,21 @@
             Cadastrar
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{route('funcionarios.create')}}">Cadastrar funcionário</a>
+            <a class="dropdown-item" href="{{route('funcionarios.create')}}">Cadastrar Funcionário</a>
             <a class="dropdown-item" href="{{route('salas.create')}}">Cadastrar Sala</a>
             <a class="dropdown-item" href="{{route('departamentos.create')}}">Cadastrar Departamento</a>
           </div>
       </li>
       <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Listar
+            Exibir
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="{{route('salas.index')}}">Listar Salas</a>
-            <a class="dropdown-item" href="{{route('departamentos.index')}}">Listar Departamentos</a>
+            <a class="dropdown-item" href="{{route('salas.index')}}">Exibir Salas</a>
+            <a class="dropdown-item" href="{{route('departamentos.index')}}">Exibir Departamentos</a>
+            <a class="dropdown-item" href="{{route('funcionarios.index')}}">Exibir Funcionários</a>
           </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/alocarfuncionario">Alocar Funcionário</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/exibir">Exibir Funcionários</a>
-      </li>      
+      </li>        
       <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>

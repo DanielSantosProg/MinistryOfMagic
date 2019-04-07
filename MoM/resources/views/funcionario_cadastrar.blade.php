@@ -19,7 +19,7 @@
                 </div>
                 <h2 id='rub_cad'>RUB</h2>        
                 <div>
-                    <input type = "text" class = "form-control" id="dados_cad_3" name="rub" placeholder = "Digite o número do seu RUB aqui">
+                    <input type = "text" class = "form-control" id="dados_cad_6" name="rub" placeholder = "Digite o número do seu RUB aqui">
                 </div>
                 <h2 id ='sex_cad'>Sexo</h2>                    
                 <div>

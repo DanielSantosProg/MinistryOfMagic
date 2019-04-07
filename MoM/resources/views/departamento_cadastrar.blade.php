@@ -21,7 +21,7 @@
                 <div>
                     <input type="text" id='dadoDepar_3' placeholder="Digite a sala" class= "form-control" name="id_sala"/>
                 </div>
-            <button type="submit" class="btn btn-outline-primary" id='cad_but'>Cadastrar</button>
+                <button type="submit" class="btn btn-outline-primary" id='cad_but'>Cadastrar</button>
             </div>
         </form>
     </div>

@@ -43,9 +43,8 @@ class DepartamentoController extends Controller
     {
         $departamento = new Departamento();
         $departamento->nome = $request->input("nome");
-        $departamento->coordenador = $request->input("coordenador");
-        $sal=null;
-        $departamento->id_sala = $sal;
+        $departamento->coordenador = $request->input("coordenador");        
+        $departamento->id_sala = $request->input("id_sala");
         $departamento->save();
         return redirect()->route('departamentos.index');
     }

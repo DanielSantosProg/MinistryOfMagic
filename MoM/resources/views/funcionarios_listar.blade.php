@@ -24,7 +24,7 @@
                 <td><img id="foto_func" src="../storage/{{ $func->foto }}" ></td>
                 <td>{{ $func->rub }}</td>
                 <td>{{ $func->posição }}</td>
-                <td>{{ $func->departamento["nome"]}}</td>
+                <td>{{ $func->id_departamento}}</td>
                 <td>                  
                   <form action = "{{ route('funcionarios.destroy', $func->id) }}" method = "POST">
                     @csrf       
