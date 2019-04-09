@@ -6,7 +6,6 @@ html {
 
 }
 
-
 #foto_func{
     width:100%;
     height: 100%;
@@ -14,7 +13,6 @@ html {
     max-height: 60px;
 
 }
-
 
 .mycarousel{
     position: absolute;
@@ -38,13 +36,6 @@ html {
     
 }
 
-.my-navbar{
-    background: #5B0ADF !important;
-    mix-blend-mode: multiply;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
 
 .navbar-nav .dropdown-menu{
     background: #5B0ADF;
@@ -151,7 +142,7 @@ html {
     position: absolute;
     width: 625px;
     height: 405px;
-    left: 805px;
+    left: 605px;
     top: 10%;
 }
 
@@ -260,7 +251,7 @@ html {
     font-size: 64px;
 }
 
-#end_cad{
+#senha_cad{
     position: absolute;
     width: 240px;
     height: 121px;
@@ -273,7 +264,7 @@ html {
     font-size: 64px;    
 }
 
-#rub_cad{
+#end_cad{
     position: absolute;
     width: 240px;
     height: 121px;
@@ -286,19 +277,18 @@ html {
     font-size: 64px;    
 }
 
-#rub_cadd{
+#rub_cad{
     position: absolute;
     width: 240px;
     height: 121px;
     left: 250px;
-    top: 620px;
+    top: 640px;
     font-family: NTR;
     font-style: normal;
     font-weight: normal;
     line-height: 54px;
     font-size: 64px;    
 }
-
 
 #pos_cad{
     position: absolute;
@@ -318,7 +308,7 @@ html {
     width: 240px;
     height: 121px;
     left:780px;
-    top: 640px;
+    top: 900px;
     font-family: NTR;
     font-style: normal;
     font-weight: normal;
@@ -331,20 +321,7 @@ html {
     width: 240px;
     height: 121px;
     left: 250px;
-    top: 640px;
-    font-family: NTR;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 54px;
-    font-size: 64px;    
-}
-
-#id_dep_cad{
-    position: absolute;
-    width: 280px;
-    height: 121px;
-    left: 250px;
-    top: 870px;
+    top: 900px;
     font-family: NTR;
     font-style: normal;
     font-weight: normal;
@@ -357,7 +334,7 @@ html {
     width: 250px;
     height: 120px;
     left: 526px;
-    top: 990px;
+    top: 1020px;
     background: #FFFFFF;
     border: 5px solid #3119C8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -371,7 +348,7 @@ html {
     width: 250px;
     height: 120px;
     left: 526px;
-    top: 990px;
+    top: 1020px;
     background: #3119C8;
     border: 5px solid #3119C8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -388,25 +365,25 @@ html {
 #rad_masc{
     position: relative;
     left: 950px;
-    top: 630px;
+    top: 880px;
 }
 
 #rad_fem{
     position: relative;
     left: 950px;
-    top: 660px;
+    top: 920px;
 }
 
 #lab_masc{
     position: relative;
     left: 975px;
-    top: 600px;
+    top: 850px;
 }
 
 #lab_fem{
     position: relative;
     left: 975px;
-    top: 630px;
+    top: 890px;
 }
 
 #dados_cad_0{
@@ -414,7 +391,7 @@ html {
     width: 500px;
     height: 40px;
     left: 550px;
-    top: 790px;
+    top: 760px;
     background: #FEF7F7;
     box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
     border-color: #3119c8;
@@ -447,7 +424,7 @@ html {
     width: 500px;
     height: 40px;
     left: 550px;
-    top: 410px;
+    top: 520px;
     background: #FEF7F7;
     box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
     border-color: #3119c8; 
@@ -458,29 +435,7 @@ html {
     width: 500px;
     height: 40px;
     left: 550px;
-    top: 530px;
-    background: #FEF7F7;
-    box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
-    border-color: #3119c8;
-}
-
-#dados_cad_5{
-    position: absolute;
-    width: 500px;
-    height: 40px;
-    left: 550px;
-    top: 880px;
-    background: #FEF7F7;
-    box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
-    border-color: #3119c8;
-}
-
-#dados_cad_6{
-    position: absolute;
-    width: 500px;
-    height: 40px;
-    left: 550px;
-    top: 520px;
+    top: 640px;
     background: #FEF7F7;
     box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
     border-color: #3119c8;
@@ -852,4 +807,42 @@ html {
 
 .car{
     width: 100%;
+}
+#salaEdit_but{
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    left: 526px;
+    top: 920px;
+    background: #FFFFFF;
+    border: 5px solid #3119C8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: #3119c8;
+}
+
+#numsala1{
+    position: absolute;
+    width: 800px;
+    height:91px;
+    left: 35%;
+    top: 400px;
+    font-family: NTR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 54px;
+    font-size: 44px;
+}
+#edicao_sala{
+    position: absolute;
+    width: 700px;
+    height: 179px;
+    left: 327px;
+    top: 155px;
+    font-family: NTR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 81px;
+    font-size: 96px;
 }
