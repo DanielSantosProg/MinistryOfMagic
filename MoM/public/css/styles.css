@@ -269,7 +269,7 @@ html {
     width: 240px;
     height: 121px;
     left: 250px;
-    top: 520px;
+    top: 390px;
     font-family: NTR;
     font-style: normal;
     font-weight: normal;
@@ -282,7 +282,7 @@ html {
     width: 240px;
     height: 121px;
     left: 250px;
-    top: 640px;
+    top: 520px;
     font-family: NTR;
     font-style: normal;
     font-weight: normal;
@@ -308,7 +308,7 @@ html {
     width: 240px;
     height: 121px;
     left:780px;
-    top: 900px;
+    top: 670px;
     font-family: NTR;
     font-style: normal;
     font-weight: normal;
@@ -321,12 +321,51 @@ html {
     width: 240px;
     height: 121px;
     left: 250px;
-    top: 900px;
+    top: 670px;
     font-family: NTR;
     font-style: normal;
     font-weight: normal;
     line-height: 54px;
     font-size: 64px;    
+}
+#salvar_but{
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    left: 526px;
+    top: 1050px;
+    background: #FFFFFF;
+    border: 5px solid #3119C8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: #3119c8;
+}
+#salvar_but:hover{
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    left: 526px;
+    top: 1050px;
+    background: #3119C8;
+    border: 5px solid #3119C8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+#depar_but{
+    position: absolute;
+    width: 250px;
+    height: 120px;
+    left: 526px;
+    top: 850px;
+    background: #FFFFFF;
+    border: 5px solid #3119C8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    font-size: 50px;
+    color: #3119c8;
 }
 
 #cad_but{
@@ -334,7 +373,7 @@ html {
     width: 250px;
     height: 120px;
     left: 526px;
-    top: 1020px;
+    top: 850px;
     background: #FFFFFF;
     border: 5px solid #3119C8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -348,7 +387,7 @@ html {
     width: 250px;
     height: 120px;
     left: 526px;
-    top: 1020px;
+    top: 850px;
     background: #3119C8;
     border: 5px solid #3119C8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -365,25 +404,25 @@ html {
 #rad_masc{
     position: relative;
     left: 950px;
-    top: 880px;
+    top: 640px;
 }
 
 #rad_fem{
     position: relative;
     left: 950px;
-    top: 920px;
+    top: 690px;
 }
 
 #lab_masc{
     position: relative;
     left: 975px;
-    top: 850px;
+    top: 610px;
 }
 
 #lab_fem{
     position: relative;
     left: 975px;
-    top: 890px;
+    top: 655px;
 }
 
 #dados_cad_0{
@@ -392,11 +431,11 @@ html {
     height: 40px;
     left: 550px;
     top: 760px;
+    top: 790px;
     background: #FEF7F7;
     box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
     border-color: #3119c8;
 }
-
 #dados_cad_1{
     position: absolute;
     width: 500px;
@@ -407,7 +446,6 @@ html {
     box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
     border-color: #3119c8;
 }
-
 #dados_cad_2{
     position: absolute;
     width: 500px;
@@ -418,8 +456,41 @@ html {
     box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
     border-color: #3119c8;
 }
-
 #dados_cad_3{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 550px;
+    top: 520px;
+    top: 410px;
+    background: #FEF7F7;
+    box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
+    border-color: #3119c8; 
+}
+#dados_cad_4{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 550px;
+    top: 640px;
+    top: 530px;
+    background: #FEF7F7;
+    box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
+    border-color: #3119c8;
+}
+
+#dados_cad_5{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 550px;
+    top: 880px;
+    background: #FEF7F7;
+    box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
+    border-color: #3119c8;
+}
+
+#dados_cad_6{
     position: absolute;
     width: 500px;
     height: 40px;
@@ -427,26 +498,26 @@ html {
     top: 520px;
     background: #FEF7F7;
     box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
-    border-color: #3119c8; 
-}
-
-#dados_cad_4{
-    position: absolute;
-    width: 500px;
-    height: 40px;
-    left: 550px;
-    top: 640px;
-    background: #FEF7F7;
-    box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
     border-color: #3119c8;
 }
-
 #inserir_img{
     position: absolute;
     width: 65px;
     height: 65px;
     left: 400px;
     top: 760px;    
+}
+#id_dep_cad{
+    position: absolute;
+    width: 280px;
+    height: 121px;
+    left: 250px;
+    top: 870px;
+    font-family: NTR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 54px;
+    font-size: 64px;    
 }
 
 #home_but_1{
@@ -845,4 +916,60 @@ html {
     font-weight: normal;
     line-height: 81px;
     font-size: 96px;
+}
+#editar_depar{
+    position: absolute;
+    width: 500px;
+    height: 179px;
+    left: 427px;
+    top: 55px;
+    font-family: NTR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 81px;
+    font-size: 96px;
+}
+#nome_depar{
+    position: absolute;
+    width: 240px;
+    height: 121px;
+    left: 250px;
+    top: 280px;
+    font-family: NTR;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 54px;
+    font-size: 64px;
+}
+
+
+#EditdadosDepar_1{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 550px;
+    top: 400px;
+    background: #FEF7F7;
+    box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
+    border-color: #3119c8;
+}
+#EditdadosDepar_2{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 550px;
+    top: 530px;
+    background: #FEF7F7;
+    box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
+    border-color: #3119c8;
+}
+#EditdadosDepar_3{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    left: 550px;
+    top: 650px;
+    background: #FEF7F7;
+    box-shadow: inset 0px 4px 4px rgba(5, 11, 11, 0.42);
+    border-color: #3119c8;
 }

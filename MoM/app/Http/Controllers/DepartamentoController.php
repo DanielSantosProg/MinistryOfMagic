@@ -78,9 +78,13 @@ class DepartamentoController extends Controller
      * @param  \App\Departamento  $departamento
      * @return \Illuminate\Http\Response
      */
-    public function update(Departamento $departamento)
+    public function update(Request $request, Departamento $departamento)
     {
-        //
+        $departamento->nome = $request->input("nome");
+        $departamento->coordenador = $request->input("coordenador");        
+        $departamento->id_sala = $request->input("id_sala");
+        $departamento->save();
+        return redirect()->route('departamentos.index');
     }
 
     /**

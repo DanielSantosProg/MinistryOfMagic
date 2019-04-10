@@ -6,18 +6,18 @@
             @csrf
             @method('PUT')
             <div class = "form-group">
-                <h1 id='cadastro_lab'>Edição de departamento</h1> 
-                <h2 id='nome_depar'>Nome</h2>
+                <h1 id='editar_depar'>Edição de departamento</h1> 
+                <h2 id='namee'>Nome</h2>
                 <div>
-                    <input type = "text" class = "form-control" id="dadosDepar_1" name="nome" placeholder = "Digite o nome aqui">
+                    <input type = "text" class = "form-control" id="EditdadosDepar_1" name="nome" placeholder = "Digite o nome aqui">
                 </div>
-                <h2 id='sala_depar'>Sala</h2>
+                <h2 id='sala'>Sala</h2>
                 <div>
-                    <input type = "text" class = "form-control" id="dadosDepar_2" name="sala" placeholder = "Digite o nome da sala aqui">
+                    <input type = "text" class = "form-control" id="EditdadosDepar_2" name="sala" placeholder = "Digite o nome da sala aqui">
                 </div>
-                <h2 id='coordenador_depar'>Coordenador</h2>
+                <h2 id='coordenador'>Coordenador</h2>
                 <div>
-                    <input type = "text" class = "form-control" id="dadosDepar_3" name="coordenador" placeholder = "Digite o nome do coordenador aqui">
+                    <input type = "text" class = "form-control" id="EditdadosDepar_3" name="coordenador" placeholder = "Digite o nome do coordenador aqui">
                 </div>
 
 

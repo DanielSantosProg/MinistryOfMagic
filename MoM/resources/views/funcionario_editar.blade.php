@@ -37,7 +37,7 @@
                 <div>
                     <input type = "text" class = "form-control" id="dados_cad_5" name="id_departamento" placeholder = "Digite o id do departamento" value="{{ $funcionario->id_departamento }}">
                 </div>
-                <button type="submit" class="btn btn-outline-primary" id="cad_but">Salvar</button>
+                <button type="submit" class="btn btn-outline-primary" id="salvar_but">Salvar</button>
             </div>
     </form>
 </div>
